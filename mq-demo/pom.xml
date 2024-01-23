@@ -46,4 +46,16 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <!-- 示例：更新maven-resources-plugin的版本 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-resources-plugin</artifactId>
+                <version>3.1.0</version>
+            </plugin>
+            <!-- 其他插件的类似配置 -->
+        </plugins>
+    </build>
+
 </project>

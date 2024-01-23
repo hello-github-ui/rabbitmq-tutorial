@@ -7,3 +7,6 @@ spring:
     virtual-host: /hmall # 虚拟主机
     username: admin # 用户名
     password: 123456 # 密码
+    listener:
+      simple:
+        prefetch: 1 # 每次只能获取一条消息，处理完成后才能获取下一条消息，根据消费能力分配消息到每个消费者，使消费者能者多劳
